@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Best-Gadgets-Appliances-fashion{
+    padding-top: 150px;
+}
+
+.fashionparesnts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+/* ++++++++++++++++++++++=left side box++++++++++++++++++++== */
+
+.left-side-fash{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+ }
+ .filterparents{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .break-line-left-side{
+    border:1px solid rgba(146, 147, 148, 0.17);
+    width: 100%;
+ }
+.filter h1{
+   font-weight: 500;
+   margin-left: -130px;
+  font-size: 25px;
+  padding-top: 10px;
+  color: #0D92F4;
+    
+}
+.gender-chield{
+    line-height: 24px;
+    color: rgb(57, 55, 55);
+}
+.gender-paresnts{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.gender-chield input:active{
+    background-color: #0D92F4;
+}
+.select-price{
+    height: 150px;
+}
+.minandmaxi-paresnts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.minmum-price select{
+    height: 30px;
+    width: 100px;
+}
+.minmum-price select:focus{
+   outline: none;
+}
+.maximum-price select{
+    height: 30px;
+    width: 100px;
+}
+.maximum-price select:focus{
+    outline: none;
+}
+
+.select-price h5{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(57, 55, 55);
+}
+.circle-line{
+    width: 90%;
+    height: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(45, 45, 211);
+    border-radius: 2px;
+}
+/* +++++++++++=right side box++++++++++++++++= */
+.right-side-fash{
+   width: 75%;
+   height: 100%;
+   background-color: white;
+}
+.top-headline-of-cloths{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top-headline-of-cloths-girls{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    border:1px solid rgba(146, 147, 148, 0.17);
+}
+.right-side-fashion-parents{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ justify-content: space-evenly;
+ margin-top: 20px;
+}
+.Men-Cloths{
+    color: #0D92F4;
+    
+
+}
+.right-side-Men-Cloths button{
+ height: 40px;
+ width: 100px;
+ background-color: #0D92F4;
+ border: none;
+ color: white;
+ font-weight: bold;
+}
+.right-side-Men-Cloths button:hover{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.right-side-fashion-chields{
+    width: 24%;
+    height: 450px;
+
+   
+}
+.right-side-fashion-chields:hover{
+    width: 24%;
+    height: 450px;
+
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+/*+++++++++++++++++++ single fashion used css++++++++++++++++++ */
+#cargorating{
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+/*+++++++++++++++++++ single fashion used css++++++++++++++++++ */
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .fashionparesnts{
+     display: contents;
+    }
+
+
+    .left-side-fash{
+        width: 92%;
+        height: 100px;
+        background-color: white;
+        margin-bottom: 20px;
+        margin-left: 15px;
+     }
+
+     .right-side-fash{
+        width: 92%;
+        height: 100%;
+        background-color: white;
+        margin-left: 15px;
+     }
+
+
+    .right-side-fashion-chields{
+        width: 50%;
+        height: 310px;
+        margin-top: 10px;
+      
+       
+    }
+    .right-side-fashion-chields:hover{
+        width: 50%;
+        height: 310px;
+        /* margin-top: 15px; */
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    
+      
+    }
+    .filter h1{
+        margin-left: 10px;
+         
+     }
+    .gender-paresnts{
+        display: none;
+    }
+    .select-price{
+        display: none;
+    }
+}

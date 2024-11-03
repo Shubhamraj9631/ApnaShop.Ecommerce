@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.small-container{
+    padding-top: 150px;
+}
+.Single-row{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 50px; 
+}
+
+#BigImage{
+    height: 450px;
+    width: 350px;
+    background-size: cover;
+    margin-left: 180px;
+    background-color: white;
+    /* border-radius: 2px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+} 
+
+/*+++++++++++++++++==== for singel tv used css +++++++++++++++++++++=*/
+#BigImagetv{
+    height: 380px;
+    width: 550px;
+    background-size: cover;
+    margin-left: 180px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+} 
+#tv{
+    
+    height: 80px;
+     width: 102px;
+     cursor: pointer;
+    background-color: grey;
+    border: 1px solid rgb(255,255,255,0.12);
+    border-radius: 2px ;
+}
+#tv:hover{
+    border: 2px solid #ffa534;
+ }
+
+.col-22{
+    line-height: 18px;    
+}
+#ratinings{
+    padding-top: 10px;
+}
+
+/* ++++++++++++++++++=for singel tv used css +++++++++++++++++++++++++++++++=*/
+
+.col-2{
+    display: inline;
+}
+#cloths-type-1{
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+    padding-top: 20px;
+}
+
+#men-cloths-type-1{
+    font-weight: 600;
+    padding-top:20px;
+}
+
+#cloth-price-1{
+    font-weight: 400;
+    font-size: 25px;
+    padding-top:20px;
+}
+.ratings span{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #ffa534;
+}
+#select-size-of-this-tshirt{
+   padding-top: 20px;
+}
+
+#select-size-of-this-tshirt select{
+    height: 30px;
+    width: 100px;
+    border: none;
+   
+}
+select:focus{
+    outline: none;
+}
+.select-qauntity-and-add-to-cart{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+#select-total-number-of-order select{
+    height: 40px;
+    width: 40px;
+}
+#add-to-cart-product-button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(8,102,255);
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+#add-to-cart-product-button:hover{
+    background-color: rgb(38, 106, 216);
+}
+button:focus{
+    outline: none;
+}
+#Product-details{
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#explain-about-product{
+    padding-top: 30px;
+    font-size: 17px;
+}
+.ratings{
+    font-weight: bold;
+    color: rgb(65, 57, 57);
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-left: 178px;
+    gap: 10px;
+    padding-top: 5px;
+   
+}
+.small-img-container{
+    padding-top: 5px;
+   
+}
+
+.small-image{
+    height: 90px;
+    width: 80px;
+    cursor: pointer;
+   background-color: grey;
+   border: 1px solid rgba(160, 160, 160, 0.02);
+   border-radius: 2px ;
+} 
+
+
+.small-image:hover{
+   border: 2px solid #ffa534;
+} 
+
+/* @+++++++++++++++++++++++++++++++++media++++++++++++++++++++++++++++ */
+
+@media screen and (max-width: 600px) {
+    .small-container{
+        padding-top: 150px;
+    }
+    .Single-row{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        gap: 50px; 
+
+    }
+      
+
+    #BigImage{
+        height: 400px;
+        width: 350px;
+        background-size: cover;
+        background-color: white;
+        border-radius: 2px;
+        display: flex;
+        margin-left: 40px;
+        justify-content: center;
+
+        
+    }
+
+    .col-2{
+        padding-left: 20px;
+
+    }
+    .small-img-row{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        margin-left: 40px;
+        gap: 10px;
+       
+    }
+    .explain-about-product{
+        text-align: center;
+        font-family: 14px;
+    }
+   
+ 
+
+   
+
+    /*+++++++++++++++++==== for singel tv used css +++++++++++++++++++++=*/
+#BigImagetv{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    margin-left:40px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+} 
+
+.col-22{
+    line-height: 20px;   
+    padding-left: 20px; 
+
+}
+#ratinings{
+    padding-top: 10px;
+   
+}
+#tv{
+       height: 50px;
+        width: 52px;
+        cursor: pointer;
+       background-color: grey;
+       border: 1px solid rgb(255,255,255,0.12);
+       border-radius: 2px ;
+    
+}
+#tv:hover{
+    border: 2px solid #ffa534;
+ }
+
+}
+/* ++++++++++++++++++=for singel tv used css +++++++++++++++++++++++++++++++=*/
